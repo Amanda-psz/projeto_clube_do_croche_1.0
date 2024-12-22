@@ -1,0 +1,18 @@
+.secao_crochetando img{
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+}
+
+.secao_quem_somos{
+    display: flex;
+    margin: 10px calc(100%/3 - 120px);
+    gap: 15px;
+}
+
+.img_quem_somos_fundadora{
+    width: 320px;
+}
+.img_quem_somos {
+    width: 250px;
+}

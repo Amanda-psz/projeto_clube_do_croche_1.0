@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner_cabecalho {
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/banner-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_logo {
+    width: 100px;
+    height: 100px;
+}
+
+.cabecalho_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    margin: 10px 0 0 20px;
+}
+
+.cabecalho_menu {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.cabecalho_menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;  
+}
+
+.cabecalho_menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+.frase_intermediaria {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: #862ec4;
+}
+
+.secao_base, .secao_crochetando {
+    padding: 10px;
+    text-align: center;
+    background-color: #eceaec;
+}
+
+.secao_divisao_base {
+    width: 600px;
+    margin: 10px calc(100%/3);
+    text-align: justify;
+
+}
+
+.secao_divisao_base h2 {
+    text-align: center;
+}
+
+.secao_base h2 {
+    padding: 10px;
+    font-size: 24px;
+    color: #67166e;
+}
+
+.secao_base p{
+    font-size: 18px;
+    color: #371351;
+    padding-bottom: 10px;
+}
+
+.secao_crochetando img {
+    width: 400px;
+    height: 520px;
+    padding: 15px;
+}
+
+.secao_crochetando figure {
+    text-align: center;
+}
+
+.secao_crochetando figcaption {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #371351;
+}
+
+.secao_videos {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.secao_videos iframe {
+    margin: 0 15px;
+}
+
+.rodape {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.rodape_redes_sociais {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 10px;
+}
+
+.rodape_redes_sociais h3 {
+    font-size: 20px;
+}
+
+.botoes_redes_sociais button{
+    display: inline;
+    width: 120px;
+    height: 40px;
+    margin: auto 10px auto auto;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6f18ac;
+    border-color: #6f18ac;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.botoes_redes_sociais button:hover {
+    background-color: #4c0d8a;
+}
+
+.rodape_desenvolvido {
+    height: 50px;
+    padding: 15px 0;
+    background-color: #eceaec;
+}
+
+.rodape_desenvolvido span {
+    font-size: 18px;
+}

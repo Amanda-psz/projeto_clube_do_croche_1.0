@@ -1,0 +1,94 @@
+.secao_divisao_base p {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #d8d7d7;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form h3 {
+    text-align: start;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+form p {
+    text-align: justify;
+    color: #393838;
+    margin-bottom: 15px;
+}
+
+form label {
+    display: flex;
+    font-size: 16px;
+    color: #393838;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form input[type="radio"] + label,
+form input[type="checkbox"] + label {
+    display: inline;
+    font-size: 14px;
+    color: #333;
+    margin-right: 15px;
+    padding-bottom: 15px;
+}
+
+form input[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6f18ac;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4c0d8a;
+}
+
+form .campo-formulario {
+    margin-bottom: 20px;
+}
+
+form .campo-formulario:last-child {
+    margin-bottom: 0;
+}
